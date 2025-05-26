@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRILOKA ANTIQUE COLLECTION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">✨ TRILOKA ANTIQUE COLLECTION</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Elegance in Every Piece</h1>
+        <p>Discover timeless handcrafted jewelry made with love.</p>
+        <a href="#collection" class="btn">Explore Collection</a>
+    </section>
+
+    <!-- About Section -->
+    <h1>About us</h1>
+        <p>
+           At <b>Triloka antique collection</b>, we believe jewelry is more than just an accessory—it's a form of self-expression, a symbol of love, tradition, and timeless elegance. Each piece in our collection is thoughtfully designed and meticulously crafted to celebrate your unique style and special moments.
+        </p>
+<h1>What We Offer</h1>
+<p>We specialize in a diverse range of handcrafted jewelry, blending classic charm with contemporary trends. Our collection includes:</p>
+<ul>
+    <li><b>Necklaces & Pendants</b>: From delicate chains to bold statement pieces.</li>
+    <li><b>Earrings</b>: Studs, hoops, drops, and ear cuffs for every occasion.</li>
+    <li><b>Rings</b>: Engagement, wedding, and fashion rings in various styles.</li>
+    <li><b>Bracelets & Bangles</b>: Elegant designs perfect for stacking or wearing solo.</li>
+    <li><b>Anklets & Toe Rings</b>: Stylish pieces for a graceful touch.</li>
+    <li><b>Custom Jewelry</b>: Personalized designs made to tell your story.</li>
+</ul>
+<h1>Why Choose Us</h1><ul>
+<li>✨<b> Authentic Designs</b> tailored to your taste.</li>
+
+<li>💎 <b>Certified Quality</b> using ethically sourced materials.</li>
+
+<li>🛠️<b>Handcrafted Excellence</b> with attention to every detail.</li>
+
+<li>💬 <b>Custom Orders</b> to create one-of-a-kind pieces.</li>
+
+<li>📦 <b>Secure Delivery</b> with luxury packaging and support.</li>
+</ul>
+
+    <!-- Collection Section -->
+    <section class="collection" id="collection">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="C:\New folder (13)\1.jpg" alt="Gold Ring">
+                <h3>Elegant neck Piece</h3>
+                <p>Elegant neck piece intricate design.</p>
+            </div>
+            <div class="product">
+                <img src="C:\New folder (13)\3.jpg" alt="antique Necklace">
+                <h3>Antique Necklace</h3>
+                <p>Classic antique necklace for every occasion.</p>
+            </div>
+            <div class="product">
+                <img src="C:\New folder (13)\2.jpg" alt="Bracelet">
+                <h3>Modern Necklace</h3>
+                <p>Modern necklace for daily elegance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <div id="cart-container" class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: ₹0</p>
+    <button onclick="checkout()">Checkout</button>
+</div>
+<a href="https://wa.me/919999999999?text=Hello! I'm interested in your jewelry collection." 
+   class="whatsapp-float" target="_blank">
+    <img src="data:image/jpeg;base64,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" alt="WhatsApp" />
+</a>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Jewelry Brand. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

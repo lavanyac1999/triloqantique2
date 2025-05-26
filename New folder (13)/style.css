@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    gap: 40px
+}
+/* Navigation Styles */
+nav ul.nav-links {
+    display: flex;
+    gap: 30; /* Adds spacing between menu items */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul.nav-links li a:hover {
+    color: #CBA135; /* Highlight on hover */
+}
+nav ul.nav-links li a {
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul.nav-links li a:hover {
+    background-color: #f7f2e6;
+    color: #CBA135;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #CBA135;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a:hover {
+    color: #CBA135;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #CBA135;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #a67c00;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product {
+    width: 280px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #CBA135;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #a67c00;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+.cart {
+    background: #f7f7f7;
+    padding: 20px;
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    z-index: 1000;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.whatsapp-float img {
+    width: 60px;
+    height: 60px;
+}
